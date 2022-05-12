@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E165DF9F282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */; };
+		E165DFA0282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */; };
+		E165DFA5282CA010002165DB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */; };
+		E165DFA6282CA010002165DB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */; };
+		E165DFA7282CA010002165DB /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */; };
+		E165DFA8282CA010002165DB /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */; };
+		E165DFAA282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */; };
+		E165DFAB282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */; };
+		E165DFAD282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */; };
+		E165DFAE282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */; };
 		E1BA15CE282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */; };
 		E1BA15CF282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */; };
 		E1BA15D1282C71C400B160D0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA15D0282C71C400B160D0 /* Utilities.swift */; };
@@ -42,6 +52,11 @@
 		6C579B250FF2B249BB4AFFBF /* Pods-wlHope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wlHope.release.xcconfig"; path = "Target Support Files/Pods-wlHope/Pods-wlHope.release.xcconfig"; sourceTree = "<group>"; };
 		A1DCD7916249F975EE4128AE /* Pods-wlFilhas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wlFilhas.debug.xcconfig"; path = "Target Support Files/Pods-wlFilhas/Pods-wlFilhas.debug.xcconfig"; sourceTree = "<group>"; };
 		A62A041012ECCE432192C208 /* Pods-wlFilhas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wlFilhas.release.xcconfig"; path = "Target Support Files/Pods-wlFilhas/Pods-wlFilhas.release.xcconfig"; sourceTree = "<group>"; };
+		E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordCoordinator.swift; sourceTree = "<group>"; };
+		E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1BA15D0282C71C400B160D0 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		E1C1CC16282C32A50043A4D6 /* wlHope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wlHope.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +105,34 @@
 				6C579B250FF2B249BB4AFFBF /* Pods-wlHope.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E165DF9D282C9FC3002165DB /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */,
+				E165DFA2282C9FF1002165DB /* ViewModel */,
+				E165DFA1282C9FEB002165DB /* View */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		E165DFA1282C9FEB002165DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */,
+				E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E165DFA2282C9FF1002165DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */,
+				E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E1C1CC0D282C32A50043A4D6 = {
@@ -175,6 +218,7 @@
 			children = (
 				E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */,
 				E1C1CC55282C48410043A4D6 /* Main */,
+				E165DF9D282C9FC3002165DB /* ForgotPassword */,
 				E1C1CC56282C486D0043A4D6 /* Login */,
 			);
 			path = Scene;
@@ -301,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E165DFA7282CA010002165DB /* ForgotPasswordViewController.xib in Resources */,
 				E1BA15CE282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */,
 				E1C1CC23282C32A60043A4D6 /* Assets.xcassets in Resources */,
 				E1C1CC61282C486D0043A4D6 /* LoginViewController.xib in Resources */,
@@ -311,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E165DFA8282CA010002165DB /* ForgotPasswordViewController.xib in Resources */,
 				E1BA15CF282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */,
 				E1C1CC3D282C349B0043A4D6 /* Assets.xcassets in Resources */,
 				E1C1CC62282C486D0043A4D6 /* LoginViewController.xib in Resources */,
@@ -372,7 +418,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C1CC44282C43BD0043A4D6 /* AppCoordinator.swift in Sources */,
+				E165DFAD282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */,
 				E1C1CC53282C483D0043A4D6 /* MainCoordinator.swift in Sources */,
+				E165DF9F282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */,
 				E1BA15D1282C71C400B160D0 /* Utilities.swift in Sources */,
 				E1C1CC48282C43FF0043A4D6 /* Coordinator.swift in Sources */,
 				E1C1CC4F282C461F0043A4D6 /* Observable.swift in Sources */,
@@ -380,6 +428,8 @@
 				E1C1CC5F282C486D0043A4D6 /* DefaultLoginViewModel.swift in Sources */,
 				E1C1CC1A282C32A50043A4D6 /* AppDelegate.swift in Sources */,
 				E1C1CC1C282C32A50043A4D6 /* SceneDelegate.swift in Sources */,
+				E165DFAA282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */,
+				E165DFA5282CA010002165DB /* ForgotPasswordViewController.swift in Sources */,
 				E1C1CC5D282C486D0043A4D6 /* LoginViewModel.swift in Sources */,
 				E1C1CC63282C486D0043A4D6 /* LoginViewController.swift in Sources */,
 			);
@@ -390,7 +440,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C1CC45282C43BD0043A4D6 /* AppCoordinator.swift in Sources */,
+				E165DFAE282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */,
 				E1C1CC54282C483D0043A4D6 /* MainCoordinator.swift in Sources */,
+				E165DFA0282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */,
 				E1BA15D2282C71C400B160D0 /* Utilities.swift in Sources */,
 				E1C1CC49282C43FF0043A4D6 /* Coordinator.swift in Sources */,
 				E1C1CC50282C461F0043A4D6 /* Observable.swift in Sources */,
@@ -398,6 +450,8 @@
 				E1C1CC60282C486D0043A4D6 /* DefaultLoginViewModel.swift in Sources */,
 				E1C1CC30282C33A20043A4D6 /* AppDelegate.swift in Sources */,
 				E1C1CC31282C33A20043A4D6 /* SceneDelegate.swift in Sources */,
+				E165DFAB282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */,
+				E165DFA6282CA010002165DB /* ForgotPasswordViewController.swift in Sources */,
 				E1C1CC5E282C486D0043A4D6 /* LoginViewModel.swift in Sources */,
 				E1C1CC64282C486D0043A4D6 /* LoginViewController.swift in Sources */,
 			);

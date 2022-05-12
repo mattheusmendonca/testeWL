@@ -28,5 +28,11 @@ class MainCoordinator: NavigationCoordinator {
     func createAccount() {
         
     }
+    
+    func forgotPassword() {
+        let forgotPasswordCoordinator = ForgotPasswordCoordinator()
+        self.start(coordinator: forgotPasswordCoordinator)
+        self.rootViewController.present(forgotPasswordCoordinator.rootViewController, animated: true, completion: nil)
+    }
 }
 

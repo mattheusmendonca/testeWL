@@ -13,21 +13,14 @@ import SwiftUI
 class Utilities {
     
     static func styleTextField(_ textfield: UITextField) {
-        let bottomLine = UIView()
+        textfield.layer.borderColor = UIColor.black.cgColor
+        textfield.layer.borderWidth = 2
+        textfield.layer.cornerRadius = 5
         
-        textfield.borderStyle = .none
-        textfield.addSubview(bottomLine)
-        
-        bottomLine.translatesAutoresizingMaskIntoConstraints = false
-        bottomLine.backgroundColor = UIColor.init(red: 152/255, green: 155/255, blue: 161/255, alpha: 1)
-        bottomLine.topAnchor.constraint(equalTo: textfield.bottomAnchor, constant: 1).isActive = true
-        bottomLine.leadingAnchor.constraint(equalTo: textfield.leadingAnchor).isActive = true
-        bottomLine.trailingAnchor.constraint(equalTo: textfield.trailingAnchor).isActive = true
-        bottomLine.heightAnchor.constraint(equalToConstant: 1).isActive = true
     }
     
     static func styleFilledButton(_ button: UIButton) {
-//        button.backgroundColor = UIColor.init(red: 69/255, green: 7/255, blue: 161/255, alpha: 1)
+//      button.backgroundColor = UIColor.init(red: 69/255, green: 7/255, blue: 161/255, alpha: 1)
         button.layer.cornerRadius = 10.0
         button.tintColor = UIColor.white
     }
