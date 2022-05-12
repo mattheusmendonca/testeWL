@@ -107,6 +107,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E10AC2A8282D8A0300C4BE29 /* ProfileTypes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileTypes;
+			sourceTree = "<group>";
+		};
 		E165DF9D282C9FC3002165DB /* ForgotPassword */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +226,7 @@
 				E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */,
 				E1C1CC55282C48410043A4D6 /* Main */,
 				E165DF9D282C9FC3002165DB /* ForgotPassword */,
+				E10AC2A8282D8A0300C4BE29 /* ProfileTypes */,
 				E1C1CC56282C486D0043A4D6 /* Login */,
 			);
 			path = Scene;
