@@ -26,7 +26,9 @@ class MainCoordinator: NavigationCoordinator {
     }
     
     func createAccount() {
-        
+        let profileTypesCoordinator = ProfileTypesCoordinator()
+        self.start(coordinator: profileTypesCoordinator)
+        self.rootViewController.present(profileTypesCoordinator.rootViewController, animated: true, completion: nil)
     }
     
     func forgotPassword() {
@@ -34,5 +36,9 @@ class MainCoordinator: NavigationCoordinator {
         self.start(coordinator: forgotPasswordCoordinator)
         self.rootViewController.present(forgotPasswordCoordinator.rootViewController, animated: true, completion: nil)
     }
+    
+    //implementação do coordinator dos tipos de registro que equivale
+    //ao register do hope
+    //criar duas viewModel e duas ViewController
 }
 
