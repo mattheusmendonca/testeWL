@@ -27,7 +27,7 @@ class Utilities {
     }
     
     static func styleFilledButton(_ button: UIButton) {
-        button.backgroundColor = UIColor.init(red: 69/255, green: 7/255, blue: 161/255, alpha: 1)
+//        button.backgroundColor = UIColor.init(red: 69/255, green: 7/255, blue: 161/255, alpha: 1)
         button.layer.cornerRadius = 10.0
         button.tintColor = UIColor.white
     }
@@ -41,9 +41,12 @@ class Utilities {
     
     static func styleHollowButton(_ button: UIButton) {
         button.layer.borderWidth = 2
-        button.layer.borderColor = UIColor.init(red: 69/255, green: 7/255, blue: 161/255, alpha: 1).cgColor
+//        if let url = Bundle.main.infoDictionary[(PRODUCT_MODULE_NAME).SceneDelegate]{
+//
+//        }
+        //button.layer.borderColor = UIColor.init(red: 69/255, green: 7/255, blue: 161/255, alpha: 1).cgColor
         button.layer.cornerRadius = 10
-        button.tintColor = UIColor.black
+        //button.tintColor = UIColor.black
     }
     
     static func styleShadyButton(_ button: UIButton) {
